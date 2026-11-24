@@ -1,0 +1,7 @@
+var = Redeclare + Reassign
+
+let = Reassign only
+
+const = Neither redeclare nor reassign
+
+callback function = in func passsing the another func as an arguement

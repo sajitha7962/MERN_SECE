@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        h1 {
+            color: rgb(255, 0, 0);
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .box {
+            background-color: white;
+            padding: 40px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    </style>
+</head>
+
+<body>
+    
+
+    <h1>Welcome to My Website</h1>
+
+    <p>This is a simple webpage created using HTML and CSS.</p>
+
+    <div class="container">
+
+        <div class="box">
+    <h2>Python</h2>
+
+    <a href="python.html" target = "_blank">
+        <img src="../images/python.png">
+    </a>
+</div>
+
+        <div class="box">
+            <h2>Java</h2>
+            <a href="java.html" target = "_blank">
+                <img src="../images/java.png">
+            </a>
+        </div>
+
+        <div class="box">
+            <h2>HTML</h2>
+            <a href="html.html" target = "_blank">
+                <img src="../images/html.png">
+            </a>
+        </div>
+
+        <div class="box">
+            <h2>CSS</h2>
+            
+            <a href="css.html" target = "_blank">
+                <img src="../images/css.png">
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
