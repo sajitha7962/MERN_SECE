@@ -31,7 +31,7 @@ function employee(name, company) {
 }
 
 employee("Sajitha", "Google");
-employee("Tamilselvan", "Microsoft");
+employee("Sujin", "Microsoft");
 employee("Abhisheik", "Amazon");
 
 // Anonymous function
@@ -78,7 +78,7 @@ function notification(name) {
 }
 
 notification("Sajitha");
-notification("Tamilselvan");
+notification("sujin");
 notification("Abhisheik");
 
 // Promise
